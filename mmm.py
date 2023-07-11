@@ -41,7 +41,6 @@ for i in range(0, m, 1):
         for k in range(0, p, 1):
             o = img3[i][j][k]
             img3[i][j][k] = list4[o]
-
 cv2.imshow("substituted image", img3)
 
 """ REVERSE """
